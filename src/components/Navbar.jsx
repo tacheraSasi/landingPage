@@ -43,7 +43,7 @@ const Navbar = () => {
             ))}
           </ul>
           <div className="hidden lg:flex justify-center space-x-12 items-center">
-            <a href="#" className="py-2 px-3 border rounded-md" onClick={()=>test()}>
+            <a href="#" className="py-2 px-3  hover:bg-gradient-to-r from-green-500 to-green-800 border border-green-800 rounded-lg transition duration-200" onClick={()=>test()}>
               Sign In
             </a>
             <a

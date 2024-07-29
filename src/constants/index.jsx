@@ -19,6 +19,7 @@ export const navItems = [
   { label: "Testimonials", href: "#Testimonials" },
 ];
 
+
 export const testimonials = [
   {
     user: "John Doe",
@@ -30,149 +31,126 @@ export const testimonials = [
     user: "Jane Smith",
     company: "Blue Horizon Technologies",
     image: user2,
-    text: "I couldn't be happier with the outcome of our project. The team's creativity and problem-solving skills were instrumental in bringing our vision to life",
+    text: "I couldn't be happier with the outcome of our project. The team's creativity and problem-solving skills were instrumental in bringing our vision to life.",
   },
   {
     user: "David Johnson",
     company: "Quantum Innovations",
     image: user3,
-    text: "Working with this company was a pleasure. Their attention to detail and commitment to excellence are commendable. I would highly recommend them to anyone looking for top-notch service.",
-  },
-  {
-    user: "Ronee Brown",
-    company: "Fusion Dynamics",
-    image: user4,
-    text: "Working with the team at XYZ Company was a game-changer for our project. Their attention to detail and innovative solutions helped us achieve our goals faster than we thought possible. We are grateful for their expertise and professionalism!",
-  },
-  {
-    user: "Michael Wilson",
-    company: "Visionary Creations",
-    image: user5,
-    text: "I am amazed by the level of professionalism and dedication shown by the team. They were able to exceed our expectations and deliver outstanding results.",
-  },
-  {
-    user: "Emily Davis",
-    company: "Synergy Systems",
-    image: user6,
-    text: "The team went above and beyond to ensure our project was a success. Their expertise and dedication are unmatched. I look forward to working with them again in the future.",
-  },
+    text: "Working with this company was a pleasure. Their attention to detail and commitment to excellence were outstanding. Highly recommended for top-notch service."
+  }
+  
 ];
 
 export const features = [
   {
     icon: <BotMessageSquare />,
-    text: "Drag-and-Drop Interface",
+    text: "Precise Attendance Tracking",
     description:
-      "Easily design and arrange your VR environments with a user-friendly drag-and-drop interface.",
+      "Monitor employee attendance accurately with Ekilie's advanced tracking system, ensuring reliable data for your records.",
   },
   {
     icon: <Fingerprint />,
-    text: "Multi-Platform Compatibility",
+    text: "Real-Time Location Verification",
     description:
-      "Build VR applications that run seamlessly across multiple platforms, including mobile, desktop, and VR headsets.",
+      "Verify employee presence in real-time with location-based attendance marking, ensuring they are within the designated area.",
   },
   {
     icon: <ShieldHalf />,
-    text: "Built-in Templates",
+    text: "Secure Data Management",
     description:
-      "Jumpstart your VR projects with a variety of built-in templates for different types of applications and environments.",
+      "Keep attendance data safe with Ekilie's robust security features, protecting sensitive information from unauthorized access.",
   },
   {
     icon: <BatteryCharging />,
-    text: "Real-Time Preview",
+    text: "Automated Reports",
     description:
-      "Preview your VR application in real-time as you make changes, allowing for quick iterations and adjustments.",
+      "Generate comprehensive attendance reports automatically, providing valuable insights into employee punctuality and presence.",
   },
   {
     icon: <PlugZap />,
-    text: "Collaboration Tools",
+    text: "User-Friendly Interface",
     description:
-      "Work together with your team in real-time on VR projects, enabling seamless collaboration and idea sharing.",
+      "Ekilie offers an intuitive and easy-to-use interface, making attendance tracking effortless for both employees and administrators.",
   },
   {
     icon: <GlobeLock />,
-    text: "Analytics Dashboard",
+    text: "Integration Capabilities",
     description:
-      "Gain valuable insights into user interactions and behavior within your VR applications with an integrated analytics dashboard.",
+      "Seamlessly integrate Ekilie with your existing office management systems to create a unified and efficient workflow.",
   },
 ];
 
 export const checklistItems = [
   {
-    title: "Code merge made easy",
+    title: "Seamless Attendance Logging",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Easily log employee attendance with minimal effort, ensuring accurate records and efficient tracking.",
   },
   {
-    title: "Review code without worry",
+    title: "Real-Time Monitoring",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Monitor attendance in real-time, providing instant updates on employee presence and punctuality.",
   },
   {
-    title: "AI Assistance to reduce time",
+    title: "Automated Notifications",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Receive automated notifications for attendance anomalies, ensuring immediate awareness and action.",
   },
   {
-    title: "Share work in minutes",
+    title: "Comprehensive Reporting",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Generate detailed reports to analyze attendance patterns and improve workforce management.",
   },
 ];
 
 export const pricingOptions = [
   {
-    title: "Free",
+    title: "Basic",
     price: "$0",
     features: [
-      "Private board sharing",
+      "Employee Attendance Tracking",
       "5 Gb Storage",
-      "Web Analytics",
-      "Private Mode",
+      "Basic Analytics",
+      "Email Notifications",
     ],
   },
   {
     title: "Pro",
     price: "$10",
     features: [
-      "Private board sharing",
+      "Advanced Attendance Tracking",
       "10 Gb Storage",
-      "Web Analytics (Advance)",
-      "Private Mode",
+      "Advanced Analytics",
+      "Real-Time Notifications",
     ],
   },
   {
     title: "Enterprise",
     price: "$200",
     features: [
-      "Private board sharing",
+      "Comprehensive Attendance Solutions",
       "Unlimited Storage",
       "High Performance Network",
-      "Private Mode",
+      "Priority Support",
     ],
   },
 ];
+
 
 export const resourcesLinks = [
   { href: "#", text: "Getting Started" },
   { href: "#", text: "Documentation" },
   { href: "#", text: "Tutorials" },
-  { href: "#", text: "API Reference" },
-  { href: "#", text: "Community Forums" },
 ];
 
 export const platformLinks = [
   { href: "#", text: "Features" },
-  { href: "#", text: "Supported Devices" },
-  { href: "#", text: "System Requirements" },
-  { href: "#", text: "Downloads" },
-  { href: "#", text: "Release Notes" },
+  { href: "#", text: "Mobile app" },
 ];
 
 export const communityLinks = [
   { href: "#", text: "Events" },
-  { href: "#", text: "Meetups" },
-  { href: "#", text: "Conferences" },
-  { href: "#", text: "Hackathons" },
   { href: "#", text: "Jobs" },
 ];
+
